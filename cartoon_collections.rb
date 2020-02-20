@@ -11,7 +11,7 @@ end
 short_words = ["puff", "go", "two"]
 
 def long_planeteer_calls(short_words)
-  # Your code here
+  planeteer_calls.any? do |call|
 end
 
 def find_the_cheese# code an argument here
