@@ -1,8 +1,12 @@
-def roll_call_dwarves(dwarves)
-  dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+call_screams = ["bo", "bam", "boom", "bazam", "powzer"]
+
+def roll_call_dwarves(array)
+  i = 0
+  array.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
 end
 
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |planeteer| planeteer.capitalize + "!" }
