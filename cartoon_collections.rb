@@ -25,8 +25,12 @@ end
 snacks = ["crackers", "gouda", "thyme"]
 ingredients = ["garlic", "rosemary", "bread"]
 
-def find_the_cheese(snacks)
+long_planeteer_calls(call_screams)
+
+
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  
 end
 
 
