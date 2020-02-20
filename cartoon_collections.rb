@@ -10,8 +10,9 @@ end
 
 short_words = ["puff", "go", "two"]
 
-def long_planeteer_calls(short_words)
-  planeteer_calls.any? do |call|
+def long_planeteer_calls(array)
+  i = 0
+  if array.any? { |call|
     call.length > 4
   end
 end
@@ -19,7 +20,7 @@ end
 snacks = ["crackers", "gouda", "thyme"]
 ingredients = ["garlic", "rosemary", "bread"]
 
-def find_the_cheese(snacks)
+def find_the_cheese(array)
   snacks.incude? { |item|
    cheese_types.include?(item)}
   cheese_types = ["cheddar", "gouda", "camembert"]
