@@ -12,6 +12,8 @@ short_words = ["puff", "go", "two"]
 
 def long_planeteer_calls(short_words)
   planeteer_calls.any? do |call|
+    call.length > 4
+  end
 end
 
 def find_the_cheese# code an argument here
