@@ -1,10 +1,8 @@
-def roll_call_dwarves{["Doc", "Dopey", "Bashful", "Grumpy"])
-  if roll_call_dwarves > 0
-   roll_call_dwarves.each_with_index { |index, name| 
-   puts "#{index}. #{name}"
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index {|dwarf, index| puts "#{index +1}. #{dwarf}"}
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(# code an argument here)
   # Your code here
 end
 
