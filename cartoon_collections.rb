@@ -10,7 +10,7 @@ end
 
 short_words = ["puff", "go", "two"]
 
-def long_planeteer_calls(short_words)
+def long_planeteer_calls(call_screams)
   planeteer_calls.any? do |call|
     call.length > 4
   end
