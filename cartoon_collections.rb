@@ -8,7 +8,7 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 
-def long_planeteer_calls# code an argument here
+def long_planeteer_calls(short_words)
   # Your code here
 end
 
