@@ -20,8 +20,6 @@ snacks = ["crackers", "gouda", "thyme"]
 ingredients = ["garlic", "rosemary", "bread"]
 
 def find_the_cheese(snacks)
-  snacks.incude? { |item|
-   cheese_types.include?(item)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
 
