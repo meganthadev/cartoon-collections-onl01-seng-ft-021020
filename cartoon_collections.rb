@@ -12,8 +12,7 @@ end
 
 short_words = ["puff", "go", "two"]
 
-def long_planeteer_calls(call_screams)
-  def long_planeteer_calls(array) 
+def long_planeteer_calls(array) 
   i = 0 
   if  array.any? {|i| i.length > 4}
     return true
